@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #81d4fa;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginscreen.controller.LoginController">
+   <children>
+      <Label alignment="CENTER" layoutX="211.0" layoutY="101.0" prefHeight="55.0" prefWidth="282.0" text="Login">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginUsername" layoutX="176.0" layoutY="177.0" prefHeight="25.0" prefWidth="351.0" promptText="Enter your Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="loginPassword" layoutX="176.0" layoutY="233.0" prefHeight="25.0" prefWidth="351.0" promptText="Enter Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <JFXButton fx:id="loginButton" layoutX="194.0" layoutY="280.0" prefHeight="55.0" prefWidth="314.0" style="-fx-background-color: #48acb8;" text="Login">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="64.0" fitWidth="74.0" layoutX="318.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-java-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="64.0" layoutX="125.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-test-account-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="58.0" layoutX="125.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-password-60.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

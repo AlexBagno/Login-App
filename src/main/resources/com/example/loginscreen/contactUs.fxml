@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #81d4fa;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginscreen.controller.ContactUsController">
+   <children>
+      <ImageView fitHeight="105.0" fitWidth="150.0" layoutX="81.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-location-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="150.0" layoutX="500.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-topic-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.0" fitWidth="150.0" layoutX="291.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-phone-100.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="65.0" layoutY="195.0" prefHeight="39.0" prefWidth="138.0" text="Address">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="295.0" layoutY="195.0" prefHeight="39.0" prefWidth="98.0" text="Phone">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="497.0" layoutY="195.0" prefHeight="39.0" prefWidth="112.0" text="Email">
+         <font>
+            <Font size="26.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="36.0" layoutY="243.0" prefHeight="143.0" prefWidth="196.0" text="Weifield Group Contracting&#10;6950 S. Jordan Road&#10;Centennial, CO 80112">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="252.0" layoutY="243.0" prefHeight="143.0" prefWidth="196.0" text="Weifield Group Contracting&#10;877.WEIFIELD phone&#10;303.202.0466 facsimile">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="448.0" layoutY="243.0" prefHeight="143.0" prefWidth="238.0" text="Request for Proposal&#10;Info@weifieldgroup.com&#10;&#10;All Bid Opportunities&#10;estimating@weifieldgroup.com">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="246.0" layoutY="14.0" prefHeight="39.0" prefWidth="196.0" text="Get in Touch">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="contactUsBackButton" alignment="CENTER" prefHeight="31.0" prefWidth="59.0" style="-fx-background-color: #81d4fa;" text="🠔">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #81d4fa;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginscreen.controller.DetailsController">
+   <children>
+      <Label fx:id="detailsWelcomeLabel" alignment="CENTER_RIGHT" layoutX="504.0" layoutY="14.0" prefHeight="31.0" prefWidth="182.0" text="Welcome...">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="14.0" layoutY="60.0" prefHeight="140.0" prefWidth="672.0" style="-fx-background-color: #eceff1;">
+         <children>
+            <ImageView fitHeight="124.0" fitWidth="126.0" layoutX="20.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/profile_photo.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="detailsName" layoutX="168.0" layoutY="14.0" prefHeight="31.0" prefWidth="366.0" text="Name:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="detailsId" layoutX="168.0" layoutY="55.0" prefHeight="31.0" prefWidth="198.0" text="Age:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="detailsProfession" layoutX="168.0" layoutY="95.0" prefHeight="31.0" prefWidth="466.0" text="Profession:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="216.0" prefHeight="170.0" prefWidth="504.0" style="-fx-background-color: #eceff1;">
+         <children>
+            <AnchorPane prefHeight="49.0" prefWidth="504.0" style="-fx-background-color: #4ba3c7;">
+               <children>
+                  <Label alignment="CENTER" layoutX="174.0" layoutY="13.0" prefHeight="28.0" prefWidth="151.0" text="How to find me" textFill="WHITE">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="41.0" fitWidth="44.0" layoutX="58.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-website-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="44.0" layoutX="58.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/alexa/IdeaProjects/JavaFX/LoginScreen/src/main/java/com/example/loginscreen/assets/icons8-twitter-48.png" />
+               </image>
+            </ImageView>
+            <Hyperlink fx:id="detailsWeb" layoutX="100.0" layoutY="65.0" prefHeight="34.0" prefWidth="250.0" text="github.com/AlexBagno">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="detailsTwitter" layoutX="100.0" layoutY="113.0" prefHeight="34.0" prefWidth="222.0" text="\@somestupidthing">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="detailsContactUs" layoutX="527.0" layoutY="271.0" prefHeight="60.0" prefWidth="151.0" style="-fx-background-color: #4ba3c7;" text="Contact Us📞" textFill="#4a4242">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
